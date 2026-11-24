@@ -120,9 +120,12 @@ the employee**   Status 0 → 6) and PFFinalSettlements     vouchers and
 EmployeeSalaries.
 ---
 
-# Diagram: Final Settlement Workflow
+Diagram: Final Settlement Workflow
 
-!\[Final Settlement Workflow](diagrams/image1.png)
+===
+
+!\[Final Settlement Workflow](./diagrams/image1.png)
+
 
 Differences Between PRL, Retirement and Contractual
 
@@ -825,7 +828,7 @@ string
 \*\*<Section>Remarks,     string,    24 blocks: Administration, HR, Berthing,
 
 <Section>Status,        int,       Security, Medical, Safety, MT, Legal, Common,
-<Section>Signatures\\\\\\\*\\\\\\\*   string     Commerce, Planning, Project, Store,
+<Section>Signatures\\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\*   string     Commerce, Planning, Project, Store,
 Fabrication, Engineering, Hull, Maintenance,
 Civil, Electrical, IT, Finance, WPPF, WF, Pay.
 ---
