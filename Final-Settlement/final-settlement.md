@@ -124,7 +124,9 @@ Diagram: Final Settlement Workflow
 
 ===
 
-!\[Final Settlement Workflow](./diagrams/image1.png)
+
+
+<img width="1198" height="682" alt="image1" src="https://github.com/user-attachments/assets/53f6f57d-2dc7-4e8c-b14e-6ceb28839078" />
 
 
 Differences Between PRL, Retirement and Contractual
