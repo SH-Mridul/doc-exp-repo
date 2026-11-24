@@ -122,10 +122,9 @@ EmployeeSalaries.
 
 # Diagram: Final Settlement Workflow
 
-!\[Final settlement](./diagrams/image1.png "Final settlement flow"){width="9.791666666666666in"
-height="5.572916666666667in"}
+!\[Final Settlement Workflow](./diagrams/image1.png)
 
-# Differences Between PRL, Retirement and Contractual
+Differences Between PRL, Retirement and Contractual
 
 Employee Type: 1 = Officer, 2 = Staff, 3 = Worker. Employment Type: 1 =
 Permanent, 2 = Contractual, 3 = Muster Roll. These meanings come from
@@ -458,11 +457,16 @@ Admin HR and CPF
 Section Head)
 
 &#x20;                                  2            With General Manager Button "Approve". GM Admin sets Status 3.
-                                                Admin                
+Admin
 
-                                   3            Approved             Button shows "Approved". Signature column
+&#x20;                                  3            Approved             Button shows "Approved". Signature column
                                                                      holds three HTML signatures split by
-                                                                     \\\\<@#\\\\$/\\\\>. No send back.
+                                                                     \\\\\\\\<@#\\\\\\\\$/\\\\\\\\>. No send back.
+
+
+
+
+
 
 
 
@@ -482,7 +486,12 @@ HR".
 
 &#x20;                                  2            With OIC             Admin HR + CPF Section Head: "Approve".
 
-                                   3            Approved             Notification to Admin Personnel.
+&#x20;                                  3            Approved             Notification to Admin Personnel.
+
+
+
+
+
 
 
 
@@ -814,7 +823,7 @@ string
 \*\*<Section>Remarks,     string,    24 blocks: Administration, HR, Berthing,
 
 <Section>Status,        int,       Security, Medical, Safety, MT, Legal, Common,
-<Section>Signatures\*\*   string     Commerce, Planning, Project, Store,
+<Section>Signatures\\\*\\\*   string     Commerce, Planning, Project, Store,
 Fabrication, Engineering, Hull, Maintenance,
 Civil, Electrical, IT, Finance, WPPF, WF, Pay.
 ---
