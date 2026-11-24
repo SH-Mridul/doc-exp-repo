@@ -122,7 +122,7 @@ EmployeeSalaries.
 
 # Diagram: Final Settlement Workflow
 
-!\[Final Settlement Workflow](./diagrams/image1.png)
+!\[Final Settlement Workflow](diagrams/image1.png)
 
 Differences Between PRL, Retirement and Contractual
 
@@ -460,8 +460,9 @@ Section Head)
 Admin
 
 &#x20;                                  3            Approved             Button shows "Approved". Signature column
-                                                                     holds three HTML signatures split by
-                                                                     \\\\\\\\<@#\\\\\\\\$/\\\\\\\\>. No send back.
+holds three HTML signatures split by
+\\\\\\\\<@#\\\\\\\\$/\\\\\\\\>. No send back.
+
 
 
 
@@ -487,6 +488,7 @@ HR".
 &#x20;                                  2            With OIC             Admin HR + CPF Section Head: "Approve".
 
 &#x20;                                  3            Approved             Notification to Admin Personnel.
+
 
 
 
@@ -823,7 +825,7 @@ string
 \*\*<Section>Remarks,     string,    24 blocks: Administration, HR, Berthing,
 
 <Section>Status,        int,       Security, Medical, Safety, MT, Legal, Common,
-<Section>Signatures\\\*\\\*   string     Commerce, Planning, Project, Store,
+<Section>Signatures\\\\\\\*\\\\\\\*   string     Commerce, Planning, Project, Store,
 Fabrication, Engineering, Hull, Maintenance,
 Civil, Electrical, IT, Finance, WPPF, WF, Pay.
 ---
